@@ -16,7 +16,12 @@ a:hover {
   text-decoration: none;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "Raleway", sans-serif;
 }
 
@@ -60,7 +65,8 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
 }
 
-.navbar a, .navbar a:focus {
+.navbar a,
+.navbar a:focus {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -75,13 +81,16 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: 1px;
 }
 
-.navbar a i, .navbar a:focus i {
+.navbar a i,
+.navbar a:focus i {
   font-size: 12px;
   line-height: 0;
   margin-left: 5px;
 }
 
-.navbar a:hover, .navbar .active, .navbar li:hover > a {
+.navbar a:hover,
+.navbar .active,
+.navbar li:hover > a {
   color: #d29b84;
 }
 
@@ -144,7 +153,9 @@ h1, h2, h3, h4, h5, h6 {
   color: #3b434a;
 }
 
-.navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
+.navbar-mobile a:hover,
+.navbar-mobile .active,
+.navbar-mobile li:hover > a {
   color: #a05744;
 }
 
@@ -233,6 +244,12 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 500;
   letter-spacing: 1px;
   text-transform: uppercase;
+}
+
+#hero h3 {
+  font-family: "Open Sans";
+  color: #fff;
+  font-size: 13px;
 }
 
 @media (min-width: 1024px) {
@@ -393,7 +410,6 @@ section {
   }
 }
 
-
 /*--------------------------------------------------------------
 # My Resume
 --------------------------------------------------------------*/
@@ -531,7 +547,6 @@ section {
   transform: scale(1.2);
 }
 
-
 /*--------------------------------------------------------------
 # Portfolio Details
 --------------------------------------------------------------*/
@@ -548,7 +563,10 @@ section {
   position: relative;
 }
 
-.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet {
+.portfolio-details
+  .portfolio-details-slider
+  .swiper-pagination
+  .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
   background-color: #fff;
@@ -556,7 +574,10 @@ section {
   border: 1px solid #a05744;
 }
 
-.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
+.portfolio-details
+  .portfolio-details-slider
+  .swiper-pagination
+  .swiper-pagination-bullet-active {
   background-color: #a05744;
 }
 
@@ -597,7 +618,6 @@ section {
   padding: 0;
 }
 
-
 /*--------------------------------------------------------------
 # Contact Me
 --------------------------------------------------------------*/
@@ -629,7 +649,6 @@ section {
   font-size: 14px;
   margin-bottom: 0;
 }
-
 
 /*--------------------------------------------------------------
 # Footer
@@ -675,35 +694,12 @@ section {
   margin: 0 0 40px 0;
 }
 
-#footer .social-links {
-  margin: 0 0 40px 0;
-}
-
-#footer .social-links a {
-  font-size: 18px;
-  display: inline-block;
-  background: #a05744;
-  color: #fff;
-  line-height: 1;
-  padding: 8px 0;
-  margin-right: 4px;
-  border-radius: 50%;
-  text-align: center;
-  width: 36px;
-  height: 36px;
-  transition: 0.3s;
-}
-
-#footer .social-links a:hover {
-  background: #d29b84;
-  color: #fff;
-  text-decoration: none;
-}
-
 #footer .copyright {
   margin: 0 0 5px 0;
 }
 
-#footer .credits {
-  font-size: 13px;
+#footer .impressum a {
+  font-style: italic;
+  color: #fff;
+  margin: 0 0 5px 0;
 }
